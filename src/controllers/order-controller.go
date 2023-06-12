@@ -5,10 +5,10 @@ import (
 
 	"order/src/repositories/interfaces"
 
+	"github.com/JohnSalazar/microservices-go-common/helpers"
+	"github.com/JohnSalazar/microservices-go-common/httputil"
+	trace "github.com/JohnSalazar/microservices-go-common/trace/otel"
 	"github.com/gin-gonic/gin"
-	"github.com/oceano-dev/microservices-go-common/helpers"
-	"github.com/oceano-dev/microservices-go-common/httputil"
-	trace "github.com/oceano-dev/microservices-go-common/trace/otel"
 )
 
 type OrderController struct {

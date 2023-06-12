@@ -7,9 +7,9 @@ import (
 	"order/src/dtos"
 	"time"
 
-	common_models "github.com/oceano-dev/microservices-go-common/models"
-	common_nats "github.com/oceano-dev/microservices-go-common/nats"
-	common_service "github.com/oceano-dev/microservices-go-common/services"
+	common_models "github.com/JohnSalazar/microservices-go-common/models"
+	common_nats "github.com/JohnSalazar/microservices-go-common/nats"
+	common_service "github.com/JohnSalazar/microservices-go-common/services"
 )
 
 type OrderEventHandler struct {
